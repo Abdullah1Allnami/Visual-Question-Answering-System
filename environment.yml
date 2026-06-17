@@ -1,0 +1,22 @@
+name: vit_env
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pytorch
+  - torchvision
+  - pip
+  - pip:
+      - transformers>=4.36.0
+      - datasets>=2.16.0
+      - streamlit>=1.30.0
+      - pillow
+      - numpy
+      - matplotlib
+      - pandas
+      - tqdm
+      - python-multipart
+      - jinja2
+      - requests
